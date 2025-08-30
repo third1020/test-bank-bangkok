@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { createItem } from '../../rest-api/items'
+import { createItem } from '../rest-api/items'
 
 interface CreateItemRequest {
   name: string

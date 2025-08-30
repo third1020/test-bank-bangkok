@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { getItems, type Item } from '../../rest-api/items'
+import { getItems, type Item } from '../rest-api/items'
 
 const ItemList = () => {
   const [items, setItems] = useState<Item[]>([])
